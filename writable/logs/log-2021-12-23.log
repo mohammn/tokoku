@@ -1,0 +1,10 @@
+CRITICAL - 2021-12-23 13:06:36 --> There is no data to insert.
+#0 C:\xampp\htdocs\tokoku\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\tokoku\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\tokoku\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Transaksi.php(21): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Transaksi->tambah()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

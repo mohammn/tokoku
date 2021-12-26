@@ -1,0 +1,249 @@
+CRITICAL - 2021-12-21 00:23:06 --> Undefined index: idBarang
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Stok.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Stok->tambah()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stok))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 00:32:17 --> There is no data to update.
+#0 C:\xampp\htdocs\tokoku\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\tokoku\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\tokoku\app\Controllers\Stok.php(39): CodeIgniter\Model->update(1, Array)
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Stok->tambah()
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stok))
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 00:34:16 --> There is no data to update.
+#0 C:\xampp\htdocs\tokoku\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\tokoku\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\tokoku\app\Controllers\Stok.php(39): CodeIgniter\Model->update(1, Array)
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Stok->tambah()
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stok))
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 00:34:50 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, int returned
+#0 C:\xampp\htdocs\tokoku\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(10, 'update')
+#1 C:\xampp\htdocs\tokoku\system\Model.php(646): CodeIgniter\BaseModel->update(Array, 10)
+#2 C:\xampp\htdocs\tokoku\app\Controllers\Stok.php(39): CodeIgniter\Model->update(1, 10)
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Stok->tambah()
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stok))
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 02:02:02 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, int returned
+#0 C:\xampp\htdocs\tokoku\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(10, 'update')
+#1 C:\xampp\htdocs\tokoku\system\Model.php(646): CodeIgniter\BaseModel->update(Array, 10)
+#2 C:\xampp\htdocs\tokoku\app\Controllers\Stok.php(39): CodeIgniter\Model->update(1, 10)
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Stok->tambah()
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stok))
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 02:02:03 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, int returned
+#0 C:\xampp\htdocs\tokoku\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(10, 'update')
+#1 C:\xampp\htdocs\tokoku\system\Model.php(646): CodeIgniter\BaseModel->update(Array, 10)
+#2 C:\xampp\htdocs\tokoku\app\Controllers\Stok.php(39): CodeIgniter\Model->update(1, 10)
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Stok->tambah()
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stok))
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 02:03:17 --> Undefined property: App\Controllers\Stok::$baramgModel
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Stok.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Stok->tambah()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stok))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 09:47:06 --> Undefined property: App\Controllers\User::$barangModel
+#0 C:\xampp\htdocs\tokoku\app\Controllers\User.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 09:47:20 --> Undefined property: App\Controllers\User::$barangModel
+#0 C:\xampp\htdocs\tokoku\app\Controllers\User.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 09:47:21 --> Undefined property: App\Controllers\User::$barangModel
+#0 C:\xampp\htdocs\tokoku\app\Controllers\User.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 09:47:21 --> Undefined property: App\Controllers\User::$barangModel
+#0 C:\xampp\htdocs\tokoku\app\Controllers\User.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 09:47:22 --> Undefined property: App\Controllers\User::$barangModel
+#0 C:\xampp\htdocs\tokoku\app\Controllers\User.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 09:47:22 --> Undefined property: App\Controllers\User::$barangModel
+#0 C:\xampp\htdocs\tokoku\app\Controllers\User.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 09:47:23 --> Undefined property: App\Controllers\User::$barangModel
+#0 C:\xampp\htdocs\tokoku\app\Controllers\User.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 09:47:23 --> Undefined property: App\Controllers\User::$barangModel
+#0 C:\xampp\htdocs\tokoku\app\Controllers\User.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 09:47:23 --> Undefined property: App\Controllers\User::$barangModel
+#0 C:\xampp\htdocs\tokoku\app\Controllers\User.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 09:47:24 --> Undefined property: App\Controllers\User::$barangModel
+#0 C:\xampp\htdocs\tokoku\app\Controllers\User.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 09:47:35 --> Undefined variable: barang
+#0 C:\xampp\htdocs\tokoku\app\Views\user.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\User.php(19): view('user', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 09:47:36 --> Undefined variable: barang
+#0 C:\xampp\htdocs\tokoku\app\Views\user.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\User.php(19): view('user', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 09:47:37 --> Undefined variable: barang
+#0 C:\xampp\htdocs\tokoku\app\Views\user.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\User.php(19): view('user', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 09:47:37 --> Undefined variable: barang
+#0 C:\xampp\htdocs\tokoku\app\Views\user.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\User.php(19): view('user', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 09:47:37 --> Undefined variable: barang
+#0 C:\xampp\htdocs\tokoku\app\Views\user.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\User.php(19): view('user', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 09:47:38 --> Undefined variable: barang
+#0 C:\xampp\htdocs\tokoku\app\Views\user.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\User.php(19): view('user', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 09:47:39 --> Undefined variable: barang
+#0 C:\xampp\htdocs\tokoku\app\Views\user.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\User.php(19): view('user', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 09:47:39 --> Undefined variable: barang
+#0 C:\xampp\htdocs\tokoku\app\Views\user.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\User.php(19): view('user', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-21 10:37:06 --> Column 'rule' cannot be null
+CRITICAL - 2021-12-21 10:37:06 --> Column 'rule' cannot be null
+#0 C:\xampp\htdocs\tokoku\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\tokoku\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tokoku\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tokoku\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\tokoku\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\tokoku\app\Controllers\User.php(30): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->tambah()
+#10 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-12-21 10:37:25 --> Column 'nama' cannot be null
+CRITICAL - 2021-12-21 10:37:25 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\tokoku\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\tokoku\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tokoku\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tokoku\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\tokoku\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\tokoku\app\Controllers\User.php(30): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\User->tambah()
+#10 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

@@ -1,0 +1,1260 @@
+CRITICAL - 2021-12-19 00:37:33 --> CodeIgniter\CodeIgniter::tryToRouteIt(): Failed opening required 'C:\xampp\htdocs\tokoku\app\Config/Routes.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-19 00:37:44 --> CodeIgniter\CodeIgniter::tryToRouteIt(): Failed opening required 'C:\xampp\htdocs\tokoku\app\Config/Routes.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-19 00:45:28 --> Undefined property: App\Controllers\Coba::$session
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Coba.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Coba->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 00:45:57 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-19 00:48:02 --> Undefined property: App\Controllers\Login::$form_validation
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 00:48:42 --> Undefined property: App\Controllers\Login::$form_validation
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 00:48:43 --> Undefined property: App\Controllers\Login::$form_validation
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 00:54:37 --> Call to undefined function Config\Services\form_validation()
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-19 00:54:38 --> Call to undefined function Config\Services\form_validation()
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-19 00:54:39 --> Call to undefined function Config\Services\form_validation()
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-19 00:54:39 --> Call to undefined function Config\Services\form_validation()
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-19 00:54:39 --> Call to undefined function Config\Services\form_validation()
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-19 00:54:40 --> Call to undefined function Config\Services\form_validation()
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-19 00:54:58 --> Undefined property: App\Controllers\Login::$load
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 00:54:59 --> Undefined property: App\Controllers\Login::$load
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 00:55:00 --> Undefined property: App\Controllers\Login::$load
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 00:55:00 --> Undefined property: App\Controllers\Login::$load
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 00:56:54 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:56:55 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:56:55 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:56:56 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:56:56 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:56:56 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:56:57 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:56:57 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:56:57 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:56:58 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:56:58 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:56:58 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:58:58 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:58:59 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:00 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:00 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:00 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:01 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:01 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:02 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:02 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:02 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:03 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:03 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:04 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:05 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:05 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:05 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:06 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:06 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:07 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:07 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(28): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:39 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:40 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:41 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:41 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:42 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:42 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:43 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:43 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:43 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:44 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:44 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:45 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:45 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:45 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 00:59:46 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 01:00:51 --> Argument 2 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\tokoku\app\Controllers\Login.php on line 29
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view', Object(CodeIgniter\Session\Session))
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 01:00:53 --> Argument 2 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\tokoku\app\Controllers\Login.php on line 29
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view', Object(CodeIgniter\Session\Session))
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 01:00:54 --> Argument 2 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\tokoku\app\Controllers\Login.php on line 29
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view', Object(CodeIgniter\Session\Session))
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 01:00:55 --> Argument 2 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\tokoku\app\Controllers\Login.php on line 29
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view', Object(CodeIgniter\Session\Session))
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 01:00:55 --> Argument 2 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\tokoku\app\Controllers\Login.php on line 29
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view', Object(CodeIgniter\Session\Session))
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 01:00:55 --> Argument 2 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\tokoku\app\Controllers\Login.php on line 29
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view', Object(CodeIgniter\Session\Session))
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 01:00:56 --> Argument 2 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\tokoku\app\Controllers\Login.php on line 29
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view', Object(CodeIgniter\Session\Session))
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 01:01:23 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 01:01:24 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 01:01:24 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 01:01:25 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 01:01:25 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tokoku\app\Views\login_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view', Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 01:02:01 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\tokoku\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 01:02:02 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\tokoku\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 01:02:02 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\tokoku\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 01:02:03 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\tokoku\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(29): view('login_view')
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 01:04:28 --> Invalid file: login_view.php
+#0 C:\xampp\htdocs\tokoku\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login_view.php')
+#1 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#2 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(15): view('login_view')
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-19 01:04:30 --> Invalid file: login_view.php
+#0 C:\xampp\htdocs\tokoku\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login_view.php')
+#1 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login_view', Array, true)
+#2 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(15): view('login_view')
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-19 01:38:57 --> Call to undefined method CodeIgniter\Session\Session::getFlashdaata()
+#0 C:\xampp\htdocs\tokoku\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(16): view('login')
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 01:51:07 --> Trait 'App\Controllers\App\Models\UserModel' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-19 01:53:51 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-19 01:53:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-19 01:55:04 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-19 01:55:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-19 02:01:49 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-19 02:01:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\app\Models\UserModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(24): App\Models\UserModel->login(NULL, NULL)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 02:01:49 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Login), true)
+#2 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-19 02:01:57 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-19 02:01:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\app\Models\UserModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(24): App\Models\UserModel->login(NULL, NULL)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 02:01:57 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Login), true)
+#2 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-19 02:02:40 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-19 02:02:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\app\Models\UserModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(24): App\Models\UserModel->login(NULL, NULL)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 02:02:40 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Login), true)
+#2 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-19 02:02:41 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-19 02:02:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\app\Models\UserModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(24): App\Models\UserModel->login(NULL, NULL)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 02:02:41 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Login), true)
+#2 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-19 02:02:47 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-19 02:02:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\app\Models\UserModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(24): App\Models\UserModel->login(NULL, NULL)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 02:02:47 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Login), true)
+#2 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-19 02:04:15 --> Undefined variable: nama
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-19 02:09:15 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-19 02:09:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\app\Models\UserModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(24): App\Models\UserModel->login(Object(App\Models\UserModel), '')
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 02:09:15 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Models\UserModel), true)
+#2 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-19 02:14:26 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-19 02:14:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 02:14:26 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Login), true)
+#2 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-19 02:16:19 --> Cannot use object of type App\Models\UserModel as array
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-19 02:16:41 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-19 02:16:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(24): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 02:16:41 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Login), true)
+#2 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-19 02:17:07 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-19 02:17:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(24): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 02:17:07 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Login), true)
+#2 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-19 02:17:28 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-19 02:17:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(24): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 02:17:28 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Login), true)
+#2 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-19 10:46:04 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-19 10:46:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(12): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 11:20:13 --> Invalid file: layout/tempate.php
+#0 C:\xampp\htdocs\tokoku\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/tempate....')
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(230): CodeIgniter\View\View->render('layout/tempate', Array, true)
+#2 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('barang', Array, true)
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(16): view('barang', Array)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->index()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 11:20:41 --> Invalid file: layout/temlpate.php
+#0 C:\xampp\htdocs\tokoku\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/temlpate...')
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(230): CodeIgniter\View\View->render('layout/temlpate', Array, true)
+#2 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('barang', Array, true)
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(16): view('barang', Array)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->index()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 11:20:42 --> Invalid file: layout/temlpate.php
+#0 C:\xampp\htdocs\tokoku\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/temlpate...')
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(230): CodeIgniter\View\View->render('layout/temlpate', Array, true)
+#2 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('barang', Array, true)
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(16): view('barang', Array)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->index()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 11:20:43 --> Invalid file: layout/temlpate.php
+#0 C:\xampp\htdocs\tokoku\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/temlpate...')
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(230): CodeIgniter\View\View->render('layout/temlpate', Array, true)
+#2 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('barang', Array, true)
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(16): view('barang', Array)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->index()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 11:20:43 --> Invalid file: layout/temlpate.php
+#0 C:\xampp\htdocs\tokoku\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/temlpate...')
+#1 C:\xampp\htdocs\tokoku\system\View\View.php(230): CodeIgniter\View\View->render('layout/temlpate', Array, true)
+#2 C:\xampp\htdocs\tokoku\system\Common.php(1097): CodeIgniter\View\View->render('barang', Array, true)
+#3 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(16): view('barang', Array)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->index()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-19 22:31:12 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->tambah()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 22:31:19 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->tambah()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 22:45:25 --> Call to undefined method App\Models\BarangModel::order_by
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(12): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 22:47:51 --> Call to undefined method App\Models\BarangModel::order_by
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(12): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 22:47:52 --> Call to undefined method App\Models\BarangModel::order_by
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(12): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 22:58:30 --> Array to string conversion
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->index()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-19 23:30:25 --> Allowed fields must be specified for model: App\Models\BarangModel
+#0 C:\xampp\htdocs\tokoku\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Bara...')
+#1 C:\xampp\htdocs\tokoku\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(31): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->tambah()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 23:30:35 --> Allowed fields must be specified for model: App\Models\BarangModel
+#0 C:\xampp\htdocs\tokoku\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Bara...')
+#1 C:\xampp\htdocs\tokoku\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(31): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->tambah()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 23:31:50 --> Allowed fields must be specified for model: App\Models\BarangModel
+#0 C:\xampp\htdocs\tokoku\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Bara...')
+#1 C:\xampp\htdocs\tokoku\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(31): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->tambah()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 23:32:59 --> Allowed fields must be specified for model: App\Models\BarangModel
+#0 C:\xampp\htdocs\tokoku\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Bara...')
+#1 C:\xampp\htdocs\tokoku\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(31): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->tambah()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 23:33:29 --> Allowed fields must be specified for model: App\Models\BarangModel
+#0 C:\xampp\htdocs\tokoku\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Bara...')
+#1 C:\xampp\htdocs\tokoku\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(31): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->tambah()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 23:36:41 --> Allowed fields must be specified for model: App\Models\BarangModel
+#0 C:\xampp\htdocs\tokoku\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Bara...')
+#1 C:\xampp\htdocs\tokoku\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(31): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->tambah()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 23:36:46 --> Allowed fields must be specified for model: App\Models\BarangModel
+#0 C:\xampp\htdocs\tokoku\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Bara...')
+#1 C:\xampp\htdocs\tokoku\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\tokoku\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(31): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->tambah()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

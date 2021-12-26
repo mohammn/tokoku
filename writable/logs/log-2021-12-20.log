@@ -1,0 +1,32 @@
+CRITICAL - 2021-12-20 10:32:04 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\tokoku\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\tokoku\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(40): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->hapus()
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 10:32:20 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\tokoku\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\tokoku\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\tokoku\app\Controllers\Barang.php(40): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Barang->hapus()
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-20 21:40:42 --> Table 'tokoku.model' doesn't exist
+CRITICAL - 2021-12-20 21:40:42 --> Table 'tokoku.model' doesn't exist
+#0 C:\xampp\htdocs\tokoku\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tokoku\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoku\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\tokoku\app\Controllers\Stok.php(43): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Stok->tampil()
+#8 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stok))
+#9 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
