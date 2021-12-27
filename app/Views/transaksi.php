@@ -56,7 +56,7 @@
                                     <div class="form-group">
                                         <label for="harga">Harga</label>
                                         <input type="text" class="form-control input-pill" id="harga" placeholder="Rp" readonly>
-                                        <input type="number" class="form-control input-pill" id="hargaKulak" placeholder="Rp">
+                                        <input type="hidden" class="form-control input-pill" id="hargaKulak" placeholder="Rp">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
